@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        font-weight: bold;
+      }
+      body {
+        background-color: rgb(85, 85, 85);
+      }
+
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100vh;
+      }
+      .card {
+        background-color: lightgray;
+        width: 250px;
+        border-radius: 15px;
+        text-align: center;
+        padding: 15px;
+        display: inline-block;
+        margin: 10px;
+      }
+      span {
+        color: red;
+      }
+      .header {
+        color: green;
+        font-weight: bold;
+        font-size: 25px;
+      }
+      img {
+        width: 150px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 15px;
+      }
+      button {
+        color: white;
+        background-color: green;
+        width: 250px;
+        height: 30px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Checkout avalibale passes</h1>
+
+    <div class="container">
+      <div class="card">
+        <img src="images/flowers.jpg" alt="" />
+        <p class="header">Singel speaking session</p>
+        <p>
+          <span>Lorem</span> ipsum dolor sit amet consectetur adipisicing elit.
+          Nemo tempora sapiente, repudiandae delectus labore eaque facere
+          praesentium ducimus
+        </p>
+        <p><span>150 $</span></p>
+        <button>Buy</button>
+      </div>
+      <div class="card">
+        <img src="images/flowers.jpg" alt="" />
+        <p class="header">One-day pass</p>
+        <p>
+          <span>Lorem</span> ipsum dolor sit amet consectetur adipisicing elit.
+          Nemo tempora sapiente, repudiandae delectus labore eaque facere
+          praesentium ducimus
+        </p>
+        <p><span>80 $</span></p>
+        <button>Buy</button>
+      </div>
+      <div class="card">
+        <img src="images/flowers.jpg" alt="" />
+        <p class="header">All-day pass</p>
+        <p>
+          <span>Lorem</span> ipsum dolor sit amet consectetur adipisicing elit.
+          Nemo tempora sapiente, repudiandae delectus labore eaque facere
+          praesentium ducimus
+        </p>
+        <p><span>50 $</span></p>
+        <button>Buy</button>
+      </div>
+    </div>
+  </body>
+</html>
